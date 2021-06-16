@@ -1,0 +1,54 @@
+*{
+  box-sizing: : border-box;
+}
+body{
+  background:#00ffff;
+}
+.wrapper{
+  max-width: auto;
+  margin: 0;
+  display: grid;
+  grid-gap: 10px;
+}
+.wrapper > div{
+  border:2px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  font-size:2em;
+}
+.one{
+  grid-column: 15/126;
+  grid-row: 1/3;
+}
+.two{
+  grid-column: 1/15;
+  grid-row: 1/64;
+}
+.three{
+  grid-column: 15/126;
+  grid-row: 3/13;
+}
+.four{
+  grid-column: 35/58;
+  grid-row: 13/33;
+}
+.five{
+  grid-column: 58/80;
+  grid-row: 13/33;
+}
+.six{
+  grid-column: 80/104;
+  grid-row: 13/33;
+}
+.seven{
+  grid-column: 15/35;
+  grid-row: 13/33;
+}
+.eight{
+  grid-column: 104/126;
+  grid-row: 13/33;
+}
+.nine{
+  grid-column: 15/126;
+  grid-row: 33/64;
+}
